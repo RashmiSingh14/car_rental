@@ -6,7 +6,7 @@ app.use(express.json());
 //Imports Route
 const car = require("./routes/carRoute");
 
-app.use("/api/v1",car);
+app.use("/", car);
 
 
 module.exports = app;
